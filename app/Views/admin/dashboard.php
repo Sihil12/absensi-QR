@@ -12,7 +12,7 @@
                                 <i class="material-icons">person</i>
                             </a>
                         </div>
-                        <p class="card-category">Jumlah siswa</p>
+                        <p class="card-category">Jumlah mahasiswa</p>
                         <h3 class="card-title"><?= count($siswa); ?></h3>
                     </div>
                     <div class="card-footer">

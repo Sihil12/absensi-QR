@@ -55,7 +55,7 @@
 <br></br>
 <table>
    <tr>
-      <td>Jumlah siswa</td>
+      <td>Jumlah mahasiswa</td>
       <td>: <?= count($listSiswa); ?></td>
    </tr>
    <tr>

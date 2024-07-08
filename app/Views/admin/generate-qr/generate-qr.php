@@ -33,7 +33,7 @@
                         <div class="card">
                            <div class="card-body">
                               <h4 class="text-primary"><b>Data Siswa</b></h4>
-                              <p>Total jumlah siswa : <b><?= count($siswa); ?></b>
+                              <p>Total jumlah mahasiswa : <b><?= count($siswa); ?></b>
                                  <br>
                                  <a href="<?= base_url('admin/siswa'); ?>">Lihat data</a>
                               </p>
