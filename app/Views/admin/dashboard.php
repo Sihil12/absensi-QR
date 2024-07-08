@@ -31,7 +31,7 @@
                                 <i class="material-icons">person_4</i>
                             </a>
                         </div>
-                        <p class="card-category">Jumlah guru</p>
+                        <p class="card-category">Jumlah dosen</p>
                         <h3 class="card-title"><?= count($guru); ?></h3>
                     </div>
                     <div class="card-footer">
