@@ -88,6 +88,12 @@ switch ($context) {
                   <p>Data Petugas</p>
                </a>
             </li>
+            <li class="nav-item <?= $context == 'laporan' ? 'active' : ''; ?>">
+            <a class="nav-link" href="<?= base_url('admin/laporan'); ?>">
+               <i class="material-icons">print</i>
+               <p>QR Code Mahasiswa</p>
+            </a>
+         </li>
          <?php endif; ?>
          <!-- <li class="nav-item active-pro mb-3">
             <a class="nav-link" href="./upgrade.html">
