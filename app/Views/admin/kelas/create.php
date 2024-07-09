@@ -26,8 +26,8 @@
               <?php endif; ?>
 
               <div class="form-group mt-4">
-                <label for="kelas">Kelas / Tingkat</label>
-                <input type="text" id="kelas" class="form-control <?= $validation->getError('kelas') ? 'is-invalid' : ''; ?>" name="kelas" placeholder="'X', 'XI', '11'" , value="<?= old('kelas') ?? $oldInput['kelas']  ?? '' ?>" required>
+                <label for="kelas">Tingkat</label>
+                <input type="text" id="kelas" class="form-control <?= $validation->getError('kelas') ? 'is-invalid' : ''; ?>" name="kelas" placeholder="'I', 'II', 'III'" , value="<?= old('kelas') ?? $oldInput['kelas']  ?? '' ?>" required>
                 <div class="invalid-feedback">
                   <?= $validation->getError('kelas'); ?>
                 </div>

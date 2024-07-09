@@ -81,7 +81,7 @@ class DataSiswa extends BaseController
       $data = [
          'ctx' => 'siswa',
          'kelas' => $kelas,
-         'title' => 'Tambah Data Siswa'
+         'title' => 'Tambah Data Mahasiswa'
       ];
 
       return view('admin/data/create/create-data-siswa', $data);
@@ -96,7 +96,7 @@ class DataSiswa extends BaseController
          $data = [
             'ctx' => 'siswa',
             'kelas' => $kelas,
-            'title' => 'Tambah Data Siswa',
+            'title' => 'Tambah Data Mahasiswa',
             'validation' => $this->validator,
             'oldInput' => $this->request->getVar()
          ];
